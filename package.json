@@ -1,0 +1,24 @@
+{
+  "name": "Bamazon-Storefront",
+  "version": "1.0.0",
+  "description": "Creating an Amazon-like storefront with MySQL. The app will take in orders from customers, deplete stock from the store's inventory, track product sales across your store's departments, and then provide a summary of the highest-grossing departments in the store. This is used to learn MySQL and connecting it with Node.js.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sitthiph/Bamazon-Storefront.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sitthiph/Bamazon-Storefront/issues"
+  },
+  "homepage": "https://github.com/sitthiph/Bamazon-Storefront#readme",
+  "dependencies": {
+    "inquirer": "^7.0.0",
+    "mysql": "^2.17.1"
+  }
+}
